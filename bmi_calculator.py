@@ -65,7 +65,7 @@ Kamu terlalu gemuk, masuk dalam kategori obesitas.
 Kurangi asupan dan perbanyak olahraga serta aktivitas
 di luar ruangan
 """)
-        
+
 # Main App
 st.title ("Aplikasi Body Mass Index Calculator")
 nama_user, lahir_user, bb_user, tb_user, gender_user = user_input()
