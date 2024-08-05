@@ -30,7 +30,6 @@ def hitung_umur(tgl_lahir_user):
     umur_hari = today - tgl_lahir_user
     umur_tahun = umur_hari.days // 365
     umur_bulan_sisa = (umur_hari.days % 365) // 30
-    print (f"Umur kamu sekarang \t: {umur_tahun} tahun, {umur_bulan_sisa} bulan")
     return umur_tahun, umur_bulan_sisa
 
 def hitung_bmi(berat_badan, tinggi_badan):
